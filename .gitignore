@@ -1,0 +1,13 @@
+# Secretos: la configuración real nunca se sube
+.env
+.env.example
+
+# Respaldos de la base (son datos, no código)
+backups/
+
+# Generados por Python y por el editor
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+Thumbs.db
